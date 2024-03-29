@@ -4,7 +4,7 @@ document.getElementById("pubg-globalButton").addEventListener("click", function(
 });
 
 document.getElementById("pubg-koreButton").addEventListener("click", function() {
-    alert("KRJB 3.1                         Esp.             Aimbot");
+    alert("KRJB 3.1                         Esp                                               Aimbot");
     window.location.href = "https://mega.nz/file/N60X1I7J#tGya3Un2p2SQvcIZ7JEMC2tixcJUwiPfXBE8wlTImPY";
 });
 
