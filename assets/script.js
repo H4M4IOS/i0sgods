@@ -3,9 +3,9 @@ document.getElementById("pubg-globalButton").addEventListener("click", function(
     window.location.href = "https://drive.google.com/file/d/11o0Luzsif6WM-F8OWzkz9ys6mFZKjAco/view?usp=drivesdk";
 });
 
-document.getElementById("youtubeButton").addEventListener("click", function() {
+document.getElementById("pubg-koreButton").addEventListener("click", function() {
     alert("بەردەست نیە لە ئایندەیەکی نزیک بەردەست دەبێت");
-    window.location.href = "";
+    window.location.href = "https://drive.google.com/file/d/11o0Luzsif6WM-F8OWzkz9ys6mFZKjAco/view?usp=drivesdk";
 });
 
 document.getElementById("googlePlayButton").addEventListener("click", function() {
