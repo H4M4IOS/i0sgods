@@ -5,7 +5,7 @@ document.getElementById("pubg-globalButton").addEventListener("click", function(
 
 document.getElementById("pubg-koreButton").addEventListener("click", function() {
     alert("بەردەست نیە لە ئایندەیەکی نزیک بەردەست دەبێت");
-    window.location.href = "https://drive.google.com/file/d/11o0Luzsif6WM-F8OWzkz9ys6mFZKjAco/view?usp=drivesdk";
+    window.location.href = "https://mega.nz/file/N60X1I7J#tGya3Un2p2SQvcIZ7JEMC2tixcJUwiPfXBE8wlTImPY";
 });
 
 document.getElementById("googlePlayButton").addEventListener("click", function() {
