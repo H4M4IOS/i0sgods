@@ -9,8 +9,8 @@ document.getElementById("pubg-koreButton").addEventListener("click", function() 
 });
 
 document.getElementById("pubg-vngButton").addEventListener("click", function() {
-    alert("بەردەست نیە لە ئایندەیەکی نزیک بەردەست دەبێت");
-    window.location.href = "";
+    alert("VNG 3.1                                                                                                      ESP                                                                                         AIMBOT                                                                                                                Button Right (10)                                                                                                                                                             Click Close to download👇. دابگرە closeبۆ داونلۆد کردن                                                   ....");
+    window.location.href = "https://mega.nz/file/ButWGDqL#WhBc7xCD3y4B1XZy0WceSqi99xs4NSULECkNek9Nt44";
 });
 
 document.getElementById("pubg-twButton").addEventListener("click", function() {
