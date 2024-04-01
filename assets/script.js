@@ -14,8 +14,8 @@ document.getElementById("pubg-vngButton").addEventListener("click", function() {
 });
 
 document.getElementById("pubg-twButton").addEventListener("click", function() {
-    alert("بەردەست نیە لە ئایندەیەکی نزیک بەردەست دەبێت");
-    window.location.href = "";
+    alert("TW 3.1                                                                                                      ESP                                                                                         AIMBOT                                                                    Button Right (10)                                                            Click Close to download👇. دابگرە closeبۆ داونلۆد کردن                                                   ....");
+    window.location.href = "https://mega.nz/file/J3sDWQBQ#VZLYOduvEb9ggMCtZbyPT_QyheN-K6KXB_gj7-lE5QQ";
 });
 
 document.getElementById("pubg-indiaButton").addEventListener("click", function() {
