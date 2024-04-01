@@ -19,6 +19,6 @@ document.getElementById("pubg-twButton").addEventListener("click", function() {
 });
 
 document.getElementById("pubg-indiaButton").addEventListener("click", function() {
-    alert("بەردەست نیە لە ئایندەیەکی نزیک بەردەست دەبێت");
-    window.location.href = "";
+    alert("BGMI 3.1 White body                     Aimbot 70m.                no camera shake.               ");
+    window.location.href = "https://mega.nz/file/N60X1I7J#tGya3Un2p2SQvcIZ7JEMC2tixcJUwiPfXBE8wlTImPY";
 });
