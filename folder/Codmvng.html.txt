@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I0S-GODS</title>
+    <meta name="keywords" content="Apps, Games, Tools, Hacks">
+    <meta name="language" content="English">
+    <link rel="icon" type="image/png" href="https://i0sgods.netlify.app/img/hamaios.png">
+    <link rel="stylesheet" href="https://i0sgods.netlify.app/Light-Dark-theme-toggle-main/style.css">
+    <link rel="stylesheet" href="https://i0sgods.netlify.app/assets/style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://i0sgods.netlify.app/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<script>
+document.querySelector('.image-container a').addEventListener('click', function(e) {
+       e.preventDefault();
+       let section = document.getElementById('section-id');
+       section.scrollIntoView({ behavior: 'smooth' });
+   });
+
+</script>
+<style>
+@font-face {
+  font-family: myFirstFont1;
+  src: url(https://i0sgods.netlify.app/font/Bethland.otf);
+}
+
+li {
+  font-family: myFirstFont1;
+}
+                              </style>
+<style>
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://i0sgods.netlify.app/font/Bethland.otf);
+}
+
+li {
+  font-family: myFirstFont;
+}
+                              </style>   
+
+<style>
+.imgg {
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+}
+</style>
+
+<style>
+.imggg {
+    width: 30px;
+    height: 30px;
+    border-radius: px;
+}
+</style>
+
+    <div class="post-card">
+
+        <div class="post">
+
+
+
+<body class="noselect">
+   <div class="image-container">
+       <a href="https://i0sgods.netlify.app/index.html">
+           <img src="https://i0sgods.netlify.app/img/IMG_3767.png" alt="Image Description" class="image-size-7">
+       </a>
+
+</div>
+
+<br>
+<br>
+
+
+
+            <span style="margin-top: 5px;">
+                <img class="imgg" src="https://i0sgods.netlify.app/img/33DCC0B5-7CC4-411A-88F4-12F44CCCC27A.jpeg">
+            </span>
+
+
+            
+                <p style="font-weight: 500; font-size:large; margin-top: 5px; ">CODM : VNG</p>
+
+<a  style="background-color: gray; border-radius: 2px; color: white; font-size: 15px;">2-4-2024   </a>
+<br>
+
+<a  style="background-color: gray; border-radius: 3px; color: white; font-size: 15px;">Size: 1.9 GB</a>
+<br>
+<br>
+
+<br>            </div>
+
+</div>
+</div>
+
+<a  style="background-color: withe; border-radius: 3px; color: white; font-size: 15px;">About :</a>
+
+    <div class="post-card">
+        <div class="post">
+
+<a  style=" color: white; font-size: 15px;">VNG 3.1 
+<br>                                                                                                     Radar | ڕادار
+  .  
+  .  
+Wallhack | واڵ هاک
+  .  
+.
+Anti flash | دژە فلاش
+    .
+  .  
+No reload | ڕیلۆد نیە
+   . 
+  .  
+Fast scope | خێرا کردنەوەی سکۆپ
+   . 
+   . 
+Aimbot  | ئەیمبووت
+    .
+    .
+Fast swim | خێرا مەلەکردن
+    .
+    .
+Fast Parachute | خرا دابەزین لە پەرەشوت
+   . 
+   . 
+No Recoil | نۆ ریکوایل 
+   . 
+    .
+Small cross | نیشانەی بچووک
+    .
+   . 
+AimAssist | ئەیم ئەسیست 
+  .  
+</a>
+<br>
+
+     
+
+</div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<center>
+
+<a style="background-color: #ffb20d; border-radius: 9px; color: white; font-size: 30px;" href="https://mega.nz/file/1zMCkIQQ#2ZOV4hk4ZRotHjxGSR5yu4mTLQGKjZiWxNm8UO83eGY" >Download Via Mega</a>
+
+
+
+</center>
+
+<br>
+
+<center>
+
+<a style="background-color: #ffb20d; border-radius: 9px; color: white; font-size: 30px;" href="https://drive.google.com/file/d/1kh8c99E1TdUilJGcfgrqQMRmrueImSYP/view?usp=drivesdk" >Download Via Google Drive</a>
+
+
+</center>
+
+
+    <script src="https://i0sgods.netlify.app/assets/script.js"></script>
+
+
+
+    <script src="https://i0sgods.netlify.app/Light-Dark-theme-toggle-main/script.js"></script>
+
+</body>
+
+</html>
