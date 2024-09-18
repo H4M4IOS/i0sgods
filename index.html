@@ -1,201 +1,89 @@
+<!-- Designed and programmed by : Munaf Aqeel Mahdi - Web , Android and Java developer -->
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I0S-GODS</title>
-    <meta name="keywords" content="Apps, Games, Tools, Hacks">
-    <meta name="language" content="English">
-    <link rel="icon" type="image/png" href="img/hamaios.png">
-    <link rel="stylesheet" href="Light-Dark-theme-toggle-main/style.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-</head>
-<script>
-document.querySelector('.image-container a').addEventListener('click', function(e) {
-       e.preventDefault();
-       let section = document.getElementById('section-id');
-       section.scrollIntoView({ behavior: 'smooth' });
-   });
-
-</script>
-<style>
-@font-face {
-  font-family: myFirstFont1;
-  src: url(font/Bethland.otf);
-}
-
-li {
-  font-family: myFirstFont1;
-}
-                              </style>
-<style>
-@font-face {
-  font-family: myFirstFont;
-  src: url(font/Bethland.otf);
-}
-
-li {
-  font-family: myFirstFont;
-}
-                              </style>   
-
-
-
-    <div class="post-card">
-
-        <div class="post">
-
-
-
-<body class="noselect">
-   <div class="image-container">
-       <a href="about.html">
-           <img src="img/info.png" alt="Image Description" class="image-size-7">
-       </a>
-
+<html>
+    <head>
+    <title>YahyaStore - Your Guide Of IOS </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="javascript/javascript.js" type="text/javascript"></script>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Free android apps and games and also last news about android phones and apps development">
+        <meta name="keywords" content="android,mobile,phone,apps,games,android news,gaming,free,store">
+        <meta name="author" content="Munaf Aqeel Mahdi">
+    </head>
+<body>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||Div Yahya|||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+    <div id="navbar">
+    <ul>
+        <li id="home"><a href="index.html">HOME</a></li>
+        <li id="apps"><a href="apps.html">APPS</a></li>
+        <li id="games"><a href="games.html">GAMES</a></li>
+        <li id="news"  onmouseover="dropdownmenu()" onmouseout="dropdownmenu_hide()"><a href="news.html">NEWS <span class="caret"></span></a></li>
+        <li id="contact"><a href="contact.html">CONTACT</a></li>
+        <li onclick="about_dialog_show()" id="about" style="float:right;"><a href="#">ABOUT</a></li>
+    </ul>
+    </div>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||Div Mobile Yahya|||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+    <div id="m_navbar">
+<a href="index.html" ><span class="fa fa-home"></span></a> <!--home-->
+<a href="apps.html" ><span class="fa fa-rocket"></span></a> <!--apps-->
+<a href="games.html" ><span class="fa fa-gamepad"></span></a> <!--games-->
+<a href="news.html" ><span class="fa fa-newspaper-o"></span></a> <!--news-->
+<a href="contact.html" ><span class="fa fa-phone"></span></a> <!--contact-->
+<a href="#" onclick="about_dialog_show()" id="about"><span class="fa fa-user"></span></a> <!--about-->
+    </div>
+<!--||||||||||||||||||||||||||||||||||||||||||||||||||Div Header|||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<div id="header" align="center" style="padding-top: 100px;padding-bottom:100px;">
+   <p align="center" style="margin:0;"><img id="main_img" src="images/apps_games_main.png" /></p>
+    <h1 id="main_title" style="text-shadow: 3px 3px 1px rgb(215, 215, 215);margin:2px;">Yahyaios - Your Guide Of IOS </h1>
+<a href="index.html" class="btn" style="background: #3479AB;" onmouseover="btn_title_show('Main page of this website') " onmouseout="btn_title_show('')"><span style="font-size: 50px;" class="fa fa-home"></span><br>HOME</a>
+<a href="apps.html" class="btn" style="background: #4CAF50;" onmouseover="btn_title_show('Free android apps')" onmouseout="btn_title_show('')">
+    <span style="font-size: 50px;" class="fa fa-rocket"></span><br>APPS</a>
+<a href="games.html" class="btn" style="background: #E91E63;" onmouseover="btn_title_show('Free android games')" onmouseout="btn_title_show('')">
+    <span style="font-size: 50px;" class="fa fa-gamepad"></span><br>GAMES</a>
+<a href="news.html" class="btn" style="background: #673AB7;" onmouseover="btn_title_show('Last news about android and apps development')" onmouseout="btn_title_show('')"><span style="font-size: 50px;" class="fa fa-newspaper-o"></span><br>NEWS</a>
+<a href="#" class="btn" style="background: #FF9800;" onmouseover="btn_title_show('Some information about this website')" onmouseout="btn_title_show('')" onclick="about_dialog_show()"><span style="font-size: 50px;" class="fa fa-user"></span><br>ABOUT</a>
+<p id="btn_title" style="position: absolute;left: 100px;right: 100px;"></p>
+<!--||||||||||||||||||||||||||||||||||||||||||||news_dropdownmenu||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<div align="left" id="dropdownmenu" onmouseover="dropdownmenu()" onmouseout="dropdownmenu_hide()">
+   <div class="news-listmenu">
+    <div style="display: inline-block;background:url('images/samsung-galaxy-note-3-neo.jpg') no-repeat;background-size:cover;width:350px;height:200px;margin: 5px;">  
+    <h3 class="item-title"><a href="#">SAMSUNG GALAXY NOTE 3</a></h3>
+    </div>
+    <div style="display: inline-block;background:url('images/Smartphones.jpg') no-repeat;background-size:cover;width:350px;height:200px;margin: 5px;"> 
+    <h3 class="item-title"><a href="#">SMART PHONES</a></h3>
+    </div>
+    <div style="display: inline-block;background:url('images/google_messenger.jpg') no-repeat;background-size:cover;width:350px;height:200px;margin: 5px;"> 
+    <h3 class="item-title"><a href="#">MESSENGER</a></h3>
+    </div>
+    </div>
+    
 </div>
-<br>
-<br>
-<center>
-<img style="margin-top: 2%; border-radius: 4%;" width="130" class="elevation-12 animated zoomIn" src="img/hamaios.png">
-</center>
-<br>
-<div style="font-size: 40px;  text-align: center; font-family: myFirstFont1; ">
-H4M4IOS😎
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||About Dialog||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<div id="about_dialog_bg">
+    <div id="about_dialog">
+<p onclick="about_dialog_hide()" style="color:white;"><span id="close_dialog"></span></p>
+        <h2 align="center">YahyaStore</h2>
+<p>Designed and programmed by : Yahya Ibrahem Hassan</p>
+    <p>Web, IOS and Java developer.</p>
+    <p>YahyaStoee is a simple website of IOS apps , games and last news about smart IOS phones and more you can find it here.</p>
+        <hr style="
+width: 350px;
+border: 1px solid rgba(255, 255, 255, 0.6);
+border-radius: 100%;
+">      
+    <a href="https://www.facebook.com/yahya.jaff520?mibextid=LQQJ4d/"><span class="fa fa-facebook-official"></span> Facebook </a>
+    <a href="https://www.facebook.com/yahya.jaff520?mibextid=LQQJ4d"><span class="fa fa-facebook-official"></span> Facebook </a>
+    <a href="http://twitter.com/Yahyaios2023"><span class="fa fa-twitter"></span> Twitter</a>
+    </div></div>
 </div>
-
-<br>
-<br>
-
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||Div Footer||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<div id="footer">
+    <p align="center">COPYRIGHT &copy; YahyaStore ,ALL RIGHTS RESERVED</p>
 </div>
-
-
-
-
-
-
-   </div>
-
-</div>
-</div>
-<br>
-<br>
-<br>
-    <div class="post-card">
-        <div class="post">
-            <span style="margin-top: 2px;">
-                <img class="img" src="img/C364EB28-0D7A-4B0B-9B1D-26A3D00165E3.png">
-            </span>
-
-            <a  class="btnn" href="folder/pubg-global.html">install-IPA</a>
-            <div>
-                <p style="font-weight: 500; font-size:large; margin-top: 5px;">PUBG : Global</p>
-            </div>
-            <p class="note" style="font-family: myFirstFont;">
-Download IPA
-<br>
-            </p>
-
-        </div>
-    </div>
-
-
-    <div class="post-card">
-        <div class="post">
-            <span style="margin-top: 2px;">
-                <img class="img" src="img/13798993-E07F-4C2F-AFD3-B13542535748.webp">
-            </span>
-            <a class="btnn" href="folder/pubg-korea.html">install-IPA</a>
-            <div>
-                <p style="font-weight: 500; font-size:large; margin-top: 5px;">PUBG : KR</p>
-            </div>
-            <p class="note" style="font-family: myFirstFont;">
-           Download Via Mega and Google drive
-            </p>
-            
-<br>
-        </div>
-    </div>
-
-    <div class="post-card">
-        <div class="post">
-            <span style="margin-top: 2px;">
-                <img class="img" src="img/2353A865-8C7C-4E2E-9919-DB0DE2DB428F.jpeg">
-            </span>
-            <a class="btnn" href="folder/pubg-vng.html">install-IPA</a>
-            <div>
-                <p style="font-weight: 500; font-size:large; margin-top: 5px;">PUBG : VNG</p>
-            </div>
-            <p class="note">
-            Download Via Mega and Google drive
-            </p>
-<br>
-        </div>
-    </div>
-
-
-
-    <div class="post-card">
-        <div class="post">
-            <span style="margin-top: 2px;">
-                <img class="img" src="img/3B912678-4BDA-4B95-A109-9A075498AF2D.png">
-            </span>
-            <a class="btnn" href="folder/pubg-tw.html">install-IPA</a>
-            <div>
-                <p style="font-weight: 500; font-size:large; margin-top: 5px;">PUBG : TW</p>
-            </div>
-            <p class="note">
-             Download Via Mega and Google drive
-            </p>
-<br>
-        </div>
-    </div>
-    <div class="post-card">
-        <div class="post">
-            <span style="margin-top: 2px;">
-                <img class="img" src="img/pubg-india.png">
-            </span>
-            <a class="btnn" href="folder/pubg-india.html">install-IPA</a>
-            <div>
-                <p style="font-weight: 500; font-size:large; margin-top: 5px;">PUBG : india</p>
-            </div>
-            <p class="note">
-             Download Via Mega and Google drive
-            </p>
-<br>
-        </div>
-    </div>
-    <div class="post-card">
-        <div class="post">
-            <span style="margin-top: 2px;">
-                <img class="img" src="img/33DCC0B5-7CC4-411A-88F4-12F44CCCC27A.jpeg">
-            </span>
-            <a class="btnn" href="folder/Codmvng.html">install-IPA</a>
-            <div>
-                <p style="font-weight: 500; font-size:large; margin-top: 5px;">CODM : VNG</p>
-            </div>
-            <p class="note">
-             Download Via Mega and Google drive
-            </p>
-<br>
-        </div>
-    </div>
-
-
-
-
-
-
-
-    <script src="assets/script.js"></script>
-
-    <script src="Light-Dark-theme-toggle-main/script.js"></script>
-
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
 </body>
-
 </html>
+<!-- Designed and programmed by : Munaf Aqeel Mahdi - Web , Android and Java developer -->
